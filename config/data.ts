@@ -169,7 +169,7 @@ export const data = {
                 currently: [
                     "Mastering C++ for high-performance microservices and low-latency networking",
                     "Exploring agentic systems and orchestration with LangGraph",
-                    "Exploring the concepts of Diffusion models, trying to understand latest research works on Data interpolatiion and imputation",
+                    "Exploring the concepts of Diffusion models, trying to understand latest research works on Data interpolatiion and imputation"
                 ]
             },
             {
