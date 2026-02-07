@@ -1,4 +1,4 @@
-# Ramachandran Kulothungan Portfolio
+# Prateek Ghosh Portfolio
 
 This is a personal portfolio website built with [Next.js](https://nextjs.org), [Tailwind CSS](https://tailwindcss.com), and [React Three Fiber](https://r3f.docs.pmnd.rs/getting-started/introduction).
 
