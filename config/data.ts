@@ -168,7 +168,7 @@ export const data = {
                 description: "I am actively deepening my expertise in C++ and python to drive my abilities as an AI Developer. Software engineering to me is a analogous to solving puzzles, those that add tremendous value when solved. The curiosity to enhance existing solutions and developing more efficient ones is thoroughly rewarding",
                 currently: [
                     "Mastering C++ for high-performance microservices and low-latency networking",
-                    "Exploring agentic systems and orchestration with LangGraph"
+                    "Exploring agentic systems and orchestration with LangGraph",
                     "Exploring the concepts of Diffusion models, trying to understand latest research works on Data interpolatiion and imputation"
                 ]
             },
