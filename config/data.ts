@@ -74,103 +74,58 @@ export const data = {
     ],
     projects: [
         {
-            title: "Agentic Job Application Drafter",
+            title: "Ozone Concentration Forecasting",
             description:
-                "Polls RSS feeds for job links and executes a LangChain workflow per job link using Browser Use Agent to extract form XPaths, attaching field values using LLMs, and auto-fill applications through a browser extension.",
+                "Utilizing USA Gov Hourly met data (time-series) to predict Ozone concentration at (t+k) hours using Multi-layer Perceptron with the help of a custom PyTorch Neural Network. Achieved comparable results to baseline time series specialized models like LSTM and GRU",
             tags: [
-                { name: "LangChain", color: "bg-blue-50 text-blue-700" },
-                { name: "Browser Use", color: "bg-green-50 text-green-700" },
-                { name: "FastAPI", color: "bg-purple-50 text-purple-700" },
-                { name: "Next.js", color: "bg-indigo-50 text-indigo-700" },
+                { name: "Deep Learning", color: "bg-blue-50 text-blue-700" },
+                { name: "Neural Network", color: "bg-green-50 text-green-700" },
+                { name: "Time-Series Analysis", color: "bg-purple-50 text-purple-700" },
+                { name: "PyTorch", color: "bg-indigo-50 text-indigo-700" },
             ],
             links: [
-                { name: "GitHub", url: "https://github.com/rudraksh97/AutoApply", icon: "Github" },
+                { name: "GitHub", url: "https://github.com/Prateek-2106/Ozone-Concentration-Forecasting", icon: "Github" },
             ],
         },
         {
-            title: "Agentic Trip Planner",
+            title: "Resume Classification",
             description:
-                "Created an agentic AI vacation planner using LangGraph and Grok LLMs, integrating Google Maps APIs, currency conversion, and calculation tools to automate personalized itineraries and cut planning time.",
+                "Leveraged Natural Language Processing Concepts to train a vectorizer to successfully classify resume and match to specific job roles. Achieved 83% accuracy.",
             tags: [
-                { name: "LangGraph", color: "bg-blue-50 text-blue-700" },
-                { name: "OpenRouter", color: "bg-green-50 text-green-700" },
-                { name: "Streamlit", color: "bg-red-50 text-red-700" },
+                { name: "Natural Language Processing", color: "bg-blue-50 text-blue-700" },
+                { name: "Classifier", color: "bg-green-50 text-green-700" },
+                { name: "NLTK", color: "bg-red-50 text-red-700" },
             ],
             links: [
-                { name: "GitHub", url: "https://github.com/RamachandranKulothungan/AI_Trip_Planner", icon: "Github" },
+                { name: "GitHub", url: "https://github.com/Prateek-2106/Resume-Classification", icon: "Github" },
             ],
         },
         {
-            title: "EmailWhiz - Bulk Cold Emailer",
+            title: "Skin Cancer Classification",
             description:
-                "A Django based Web Application, enables users to send 100+ personalized cold emails and follow-ups directly without Gmail redirection.",
+                "Built a Convolutional Neural Network classifier to classify skin deformities as malignant or benign, achieving 85% accuracy (comparable to Resnet50 ~86%); reduced false negatives 20%, improving reliability for early detection use cases.",
             tags: [
-                { name: "Django", color: "bg-green-50 text-green-700" },
-                { name: "React", color: "bg-blue-50 text-blue-700" },
-                { name: "Tailwind CSS", color: "bg-indigo-50 text-indigo-700" },
-                { name: "MongoDB", color: "bg-yellow-50 text-yellow-700" },
-                { name: "GCP", color: "bg-orange-50 text-orange-700" },
+                { name: "OpenCV", color: "bg-green-50 text-green-700" },
+                { name: "Convolutional Neural Network", color: "bg-blue-50 text-blue-700" },
+                { name: "Keras", color: "bg-indigo-50 text-indigo-700" },
+                { name: "Sci-kit Learn", color: "bg-yellow-50 text-yellow-700" },
             ],
             links: [
-                { name: "GitHub", url: "https://github.com/RamachandranKulothungan/EmailWhizV3", icon: "Github" },
+                { name: "GitHub", url: "https://github.com/Prateek-2106/Skin-Cancer-Classification", icon: "Github" },
             ],
         },
         {
-            title: "Lighthouse Free Medical Clinic App",
+            title: "Simulation of Self Driving Car",
             description:
-                "Developed a web application to provide optimal insurance recommendations for uninsured patients. Utilized OpenAI models, Next.js, and FastAPI to streamline decision-making for medical professionals.",
-            award: "🏆 Winner of UB AI Hackathon",
+                "Designed a custom Convolutional Neural Network model trained on manual driving frames from Unity Udacity simulator. The trained CNN model achieved autonomous hands-free driving on the simulator, achieving 92% validation accuracy for steering prediction, with 95%+ lane-keeping accuracy, reduced steering error variance 30% vs. baseline models. ",
             tags: [
-                { name: "Next.js", color: "bg-blue-50 text-blue-700" },
-                { name: "FastAPI", color: "bg-green-50 text-green-700" },
-                { name: "OpenAI", color: "bg-purple-50 text-purple-700" },
+                { name: "OpenCV", color: "bg-blue-50 text-blue-700" },
+                { name: "Convolutional Neural Network", color: "bg-green-50 text-green-700" },
+                { name: "Keras", color: "bg-purple-50 text-purple-700" },
+                { name: "Sci-kit Learn", color: "bg-yellow-50 text-yellow-700" },
             ],
             links: [
-                { name: "GitHub", url: "https://github.com/RamachandranKulothungan/lighthouse", icon: "Github" },
-                { name: "Demo", url: "https://devpost.com/software/beacon-1j8itz?ref_content=my-projects-tab&ref_feature=my_projects", icon: "ExternalLink" },
-            ],
-        },
-        {
-            title: "Anime Recommendation System",
-            description:
-                "Built a machine learning-based recommendation system for personalized anime suggestions. Utilized Scikit-learn, Pandas, Django, and Streamlit to analyze 5M+ user ratings and suggest relevant anime. Implemented a hybrid approach using collaborative filtering and content-based similarity.",
-            tags: [
-                { name: "Scikit-learn", color: "bg-orange-50 text-orange-700" },
-                { name: "Pandas", color: "bg-blue-50 text-blue-700" },
-                { name: "Django", color: "bg-green-50 text-green-700" },
-                { name: "Streamlit", color: "bg-red-50 text-red-700" },
-            ],
-            links: [
-                { name: "GitHub", url: "https://github.com/AnsariSaad83299/Anime-Recommendation", icon: "Github" },
-            ],
-        },
-        {
-            title: "Doodle Recognition Web App",
-            description:
-                "Created an interactive web app for handwritten doodle recognition. Built with a Resnet18 model trained in PyTorch with MNIST dataset, integrated with a user-friendly front-end. Hosted on Huggingface spaces for easy access and deployment.",
-            tags: [
-                { name: "PyTorch", color: "bg-red-50 text-red-700" },
-                { name: "ResNet18", color: "bg-purple-50 text-purple-700" },
-                { name: "MNIST", color: "bg-yellow-50 text-yellow-700" },
-                { name: "Huggingface", color: "bg-pink-50 text-pink-700" },
-            ],
-            links: [
-                { name: "GitHub", url: "https://huggingface.co/spaces/ramachandrankulothungan/digit_doodle_recognition/tree/main", icon: "Github" },
-                { name: "Try it out", url: "https://huggingface.co/spaces/ramachandrankulothungan/digit_doodle_recognition", icon: "ExternalLink" },
-            ],
-        },
-        {
-            title: "Sorting Algorithm Visualizer",
-            description:
-                "Developed a React + TypeScript application to visualize sorting algorithms. Used Chart.js for real-time graph updates and deployed the app using GitHub Pages. Helps users understand sorting concepts interactively through visual representation.",
-            tags: [
-                { name: "React", color: "bg-blue-50 text-blue-700" },
-                { name: "TypeScript", color: "bg-indigo-50 text-indigo-700" },
-                { name: "Chart.js", color: "bg-green-50 text-green-700" },
-            ],
-            links: [
-                { name: "GitHub", url: "https://github.com/RamachandranKulothungan/viewsort", icon: "Github" },
-                { name: "Try it out", url: "https://ramachandrankulothungan.github.io/viewsort/", icon: "ExternalLink" },
+                { name: "GitHub", url: "https://github.com/Prateek-2106/SDC_SIM", icon: "Github" }
             ],
         },
     ],
@@ -198,7 +153,7 @@ export const data = {
                 title: "Fitness",
                 description: "Basketball has been my  sincfuele childhood. In times of stress, a ball and a hoop equals forgetting the world. To get better at it, Hypertrophy training to maintain muscle mass, the physiology of it and the science of dieting is my most recent ongoing challenge.",
                 currently: [
-                    "Lifting weights and fu",
+                    "Lifting weights and functional training",
                     "Refining freestyle basketball techniques",
                     "Learning and improving swimming endurance"
                 ]
