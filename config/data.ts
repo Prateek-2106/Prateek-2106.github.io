@@ -128,6 +128,31 @@ export const data = {
                 { name: "GitHub", url: "https://github.com/Prateek-2106/SDC_SIM", icon: "Github" }
             ],
         },
+        {
+            title: "Code Scanner and Tally",
+            description:
+                "Microsoft Excel VBA code to recognize Barcode, QR Code and Data Matrix output using scanner output and realtime tallying in a large Kit List (~900 parts per model) for Tata Motors South Africa. Active on Industry floor till date. Saved cost-to-company of upto 15000 ZAR",
+            tags: [
+                { name: "Microsoft Excel VBA", color: "bg-blue-50 text-blue-700" },
+                { name: "Object Oriented Programming", color: "bg-green-50 text-green-700" },
+                { name: "Code Optimization and Debugging", color: "bg-purple-50 text-purple-700" },
+            ],
+            links: [
+                { name: "GitHub", url: "https://github.com/Prateek-2106/VBA_TMSA_Project", icon: "Github" }
+            ],
+        },
+        {
+            title: "Architecture of Complex Networking Topology",
+            description:
+                "Constructed a complex networking topology with successful end-to-end communication using Routing and Switching protocols",
+            tags: [
+                { name: "CISCO CCNA R&S", color: "bg-blue-50 text-blue-700" },
+                { name: "Computer Networks", color: "bg-green-50 text-green-700" },
+            ],
+            links: [
+                { name: "GitHub", url: "https://github.com/Prateek-2106/Routing_and_Switching_project", icon: "Github" }
+            ],
+        },
     ],
     now: {
         lastUpdated: "January 2026",
