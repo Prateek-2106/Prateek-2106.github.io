@@ -8,8 +8,8 @@ import { Footer } from "@/components/ui/Footer";
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 
 export const metadata: Metadata = {
-  title: "Ramachandran Kulothungan | Portfolio",
-  description: "Portfolio of Ramachandran Kulothungan, Software Engineer specialized in Backend Systems and AI.",
+  title: "Prateek Ghosh | Portfolio",
+  description: "Portfolio of Prateek Ghosh, Software Engineer specialized in AI and Backend systems.",
 };
 
 export default function RootLayout({
