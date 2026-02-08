@@ -11,7 +11,7 @@ export default function ProjectsPage() {
           </span>
         </h1>
         <p className="text-xl text-muted-foreground leading-relaxed max-w-2xl mx-auto">
-          A showcase of my work in Agentic AI, Full Stack Development, and Machine Learning.
+          A showcase of my work in AI, Machine Learning & Software Development.
         </p>
       </header>
 
