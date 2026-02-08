@@ -12,29 +12,47 @@ export const data = {
     },
     experience: [
         {
-            role: "Software Dev Cloud Intern",
-            company: "Nokia Bell Labs",
-            location: "Chicago",
-            duration: "June 2025 – December 2025",
+            role: "Research Intern",
+            company: "University at Buffalo, SUNY",
+            location: "Buffalo, NY",
+            duration: "October 2025 – Present",
             description: [
-                "Built cloud-native lifecycle automation for Nokia CMM across Kubernetes environments (NCS, OpenShift) using NCOM, enabling reliable deployment, scaling, and upgrade workflows.",
-                "Developed an extensible Python library exposing 30+ standardized API and logging abstractions, enabling programmatic integration across automation and orchestration workflows using Jenkins.",
-                "Automated CMM re-installation workflows for T-Mobile (TMO) using Python and NCOM+ tooling, to reduce manual re-installation time from ~9 hours."
+                "Reported 4.44 Mean Opinion Score (MOS) in Speech Audio Synthesis (DiffWave Implementation): Curating the DiffWave pipeline for speech generation using the pre-trained 22.05 kHz model with mel-spectrogram conditioning; inject Gaussian noise via a Markov chain forward process and train reverse diffusion to recover clean audio.",
+                "Vehicle Speed Imputation (Diffusion + GNN/FGTI): Studying and applying the above diffusion process to Graph Neural Networks (GNN) and FGTI for imputing missing values in Buffalo roadside speed-sensor time series; coverage windows: Oct-mid Nov 2022, first half of Dec 2022, Feb 2023; imputation targets: half of Nov 2022, second half of Dec 2022, Jan 2023 (full)"
             ]
         },
         {
-            role: "Software Development Engineer",
-            company: "Dassault Systèmes",
-            location: "",
-            duration: "August 2020 – August 2024",
+            role: "Business Technical Analyst - SAP Development",
+            company: "Deloitte US offices of India",
+            location: "Hyderabad, India",
+            duration: "July 2021 – July 2025",
             description: [
-                "Built a scalable Python-based internal automation framework adopted by 40+ teams to orchestrate UI and API-driven workflows and CI/CD execution using goCD and Github Actions, significantly reducing manual operational effort.",
-                "Led a platform decentralization initiative by modularizing shared libraries, defining versioned packaging patterns, and automating artifact publishing to Artifactory using GitHub Actions, enabling team-owned repositories and independent releases.",
-                "Worked on cloud infrastructure migration and optimization on AWS, designing reusable Terraform modules and rightsizing EC2 resources to achieve ~60% cost reduction and faster environment provisioning.",
-                "Engineered and deployed an internal developer productivity tool (Django, AWS, Kubernetes) to index and search library keywords across 10+ repositories, improving discoverability and onboarding efficiency.",
-                "Implemented centralized observability and analytics using structured logging and Sumo Logic dashboards to provide real-time visibility into test pipeline health for 30+ teams.",
-                "Led data validation for a production AWS DMS migration (MySQL → PostgreSQL) by building automated Ruby/SQL integrity checks, ensuring data correctness and reducing manual validation effort by ~90%.",
-                "Recognized with 2 company awards for engineering contributions that reduced system execution time by ~50% and improved reliability and scalability across organization-wide platforms."
+                "Engineered a PII data-scrambling and compliance automation platform using Python and SAP ABAP, automating manual data-masking workflows and improving enterprise data-privacy compliance across CRM systems by 90%.",
+                "Refactored legacy cloud-based systems in the Custom Code Decommission initiative; decommissioned 35K+ redundant objects, improved system response time by 45%; enabled a $350K project renewal through scalable backend redesign.",
+                "Delivered 110+ production-grade enhancements under Agile and CI/CD pipelines in ServiceOne; strengthened cross-team SLA adherence to 87% through test-driven, maintainable feature development.",
+                "Resolved 70+ ABAP defects using SQL tuning, debugging, and OOP principles, boosting query processing efficiency by 6%",
+                "Recognized with Deloitte's Applause Award for technical excellence and Cross-functional Collaboration on enterprise systems."
+            ]
+        },
+        {
+            role: "ML & AI Intern",
+            company: "Central Tool Room and Training Center (Govt of India)",
+            location: "Bhubaneswar, India",
+            duration: "November 2019 – December 2019",
+            description: [
+                "Trained a real-time human-figure detection model using TensorFlow CNNs; achieved 92% accuracy, reduced image-processing latency by 22%, and lowered false-positive rate by 8% through model tuning.",
+                "Benchmarked classical ML models (KNN, SVM, Naïve Bayes) against deep-learning baselines; achieved 10%+ accuracy improvement through efficient model tuning and dataset preprocessing pipelines using AI/ML frameworks (PyTorch)."
+            ]
+        },
+        {
+            role: "Software Development Intern",
+            company: "Tata Motors South Africa",
+            location: "Pretoria, South Africa",
+            duration: "May 2019 – June 2019",
+            description: [
+                "Developed an end-to-end automation system integrating Excel VBA, SQL, and live scanner data, enhancing production-line traceability and shop-floor preprocessing for vehicular manufacturing, increasing production from 11 units to 13 units daily",
+                "Automated the inventory-tally workflow, cutting cycle time by 90% and query latency by 98% across 9 vehicle models.",
+                "Replaced external vendor software with an in-house data management platform, saving ZAR 15,000 annually and improving scalability, maintenance, and operational control."  
             ]
         }
     ],
