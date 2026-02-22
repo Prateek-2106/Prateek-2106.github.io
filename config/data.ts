@@ -3,7 +3,7 @@ export const data = {
     personal: {
         name: "Prateek Ghosh",
         tagline: "Software Engineer | AI, Machine Learning, SAP",
-        description: "Aspiring AI Engineering, specialized in Deep Learning models and Agentic AI Development, with a strong foundation in automation and development in SAP ABAP. Pursuing a Master's in Computer Science from University at Buffalo (AI/ML track).",
+        description: "Aspiring AI Engineer, specialized in Deep Learning models and Agentic AI Development, with a strong foundation in automation and development in SAP ABAP. Pursuing a Master's in Computer Science from University at Buffalo (AI/ML track).",
         email: "prateek.prateekghosh29@gmail.com",
         linkedin: "https://www.linkedin.com/in/prateek-ghosh-ub/",
         github: "https://github.com/Prateek-2106",
