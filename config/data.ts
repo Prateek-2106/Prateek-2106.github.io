@@ -74,6 +74,75 @@ export const data = {
     ],
     projects: [
         {
+            title: "WildLens",
+            description:
+                "Real-time wildlife detection and species identification system. Auto-labeled camera-trap imagery with MegaDetector v5a, built a 500-species dataset (~92K train / 8K val images) and fine-tuned a detector to mAP50 ~0.64. Served through a Gradio app that runs on uploaded videos or YouTube links; presented at UB CSE Demo Day.",
+            tags: [
+                { name: "Computer Vision", color: "bg-blue-50 text-blue-700" },
+                { name: "MegaDetector", color: "bg-green-50 text-green-700" },
+                { name: "PyTorch", color: "bg-indigo-50 text-indigo-700" },
+                { name: "Gradio", color: "bg-purple-50 text-purple-700" },
+                { name: "Hugging Face", color: "bg-yellow-50 text-yellow-700" },
+            ],
+            links: [
+                { name: "Hugging Face", url: "https://huggingface.co/spaces/Prateek2106/Wildlife-Detector", icon: "ExternalLink" },
+            ],
+        },
+        {
+            title: "Vendor Street",
+            description:
+                "Multi-tenant SaaS for small businesses: each gets a website, takes customer requests by web or SMS, and sends AI-drafted quotes, invoices and receipts. Includes a lending engine that scores a 6-month bank statement on 8 cash-flow measures in under 300 ms (p95). Load-tested at 2,400+ req/s on one CPU core; runs on AWS for about $12/month with 412 unit/integration and 17 browser tests in CI.",
+            tags: [
+                { name: "TypeScript", color: "bg-blue-50 text-blue-700" },
+                { name: "React", color: "bg-green-50 text-green-700" },
+                { name: "Node.js", color: "bg-purple-50 text-purple-700" },
+                { name: "MongoDB", color: "bg-indigo-50 text-indigo-700" },
+                { name: "AWS", color: "bg-yellow-50 text-yellow-700" },
+                { name: "Claude API", color: "bg-red-50 text-red-700" },
+            ],
+            links: [
+                { name: "Live", url: "https://vendorstreet.dev/", icon: "ExternalLink" },
+                { name: "GitHub", url: "https://github.com/Prateek-2106/vendorstreet", icon: "Github" },
+            ],
+        },
+        {
+            title: "Multi-Agent Research Assistant",
+            description:
+                "Multi-agent system on IBM watsonx Orchestrate where a supervisor agent routes each question to a specialist: a RAG agent over UB CCR's HPC documentation (56 pages, 96% retrieval accuracy, ~3 s cited answers, embedded on a docs prototype) and a Professor Discovery agent that matches a student's bio to UB faculty research.",
+            award: "3rd Place, IBM SkillsBuild AI Hackathon",
+            tags: [
+                { name: "Agentic AI", color: "bg-blue-50 text-blue-700" },
+                { name: "IBM watsonx Orchestrate", color: "bg-green-50 text-green-700" },
+                { name: "RAG", color: "bg-purple-50 text-purple-700" },
+                { name: "Python", color: "bg-indigo-50 text-indigo-700" },
+            ],
+            links: [],
+        },
+        {
+            title: "Fetch: Animal Rescue Case Management",
+            description:
+                "One-stop case-management tool for the Against All Oddz animal rescue, built with Team AniTech at UB's AI for Good Design Challenge. Role-based staff and public views, per-animal case pages with a kanban journey, correspondence and urgency indicators; I built request intake across sources.",
+            award: "1st Place, Against All Oddz AI for Good Design Challenge",
+            tags: [
+                { name: "AI for Good", color: "bg-blue-50 text-blue-700" },
+                { name: "Full-Stack", color: "bg-green-50 text-green-700" },
+                { name: "Product Design", color: "bg-purple-50 text-purple-700" },
+            ],
+            links: [],
+        },
+        {
+            title: "Temporal Financial Risk Modelling",
+            description:
+                "LSTM, GRU and Transformer forecasters on Dow Jones (DJI) data predicting log returns, with Monte Carlo Dropout uncertainty calibrated to 92% prediction-interval coverage (target 90%), plus Value-at-Risk and Expected Shortfall risk metrics. Presented at UB CSE Demo Day.",
+            tags: [
+                { name: "Deep Learning", color: "bg-blue-50 text-blue-700" },
+                { name: "Time-Series Analysis", color: "bg-purple-50 text-purple-700" },
+                { name: "Uncertainty Quantification", color: "bg-green-50 text-green-700" },
+                { name: "PyTorch", color: "bg-indigo-50 text-indigo-700" },
+            ],
+            links: [],
+        },
+        {
             title: "Ozone Concentration Forecasting",
             description:
                 "Utilizing USA Gov Hourly met data (time-series) to predict Ozone concentration at (t+k) hours using Multi-layer Perceptron with the help of a custom PyTorch Neural Network. Achieved comparable results to baseline time series specialized models like LSTM and GRU",
