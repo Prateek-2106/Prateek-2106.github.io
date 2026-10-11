@@ -12,10 +12,10 @@ export const data = {
     },
     experience: [
         {
-            role: "Research Intern",
-            company: "University at Buffalo, SUNY",
+            role: "Graduate Research Assistant",
+            company: "University at Buffalo, SEAS",
             location: "Buffalo, NY",
-            duration: "October 2025 – Present",
+            duration: "October 2025 – February 2026",
             description: [
                 "Reported 4.44 Mean Opinion Score (MOS) in Speech Audio Synthesis (DiffWave Implementation): Curating the DiffWave pipeline for speech generation using the pre-trained 22.05 kHz model with mel-spectrogram conditioning; inject Gaussian noise via a Markov chain forward process and train reverse diffusion to recover clean audio.",
                 "Vehicle Speed Imputation (Diffusion + GNN/FGTI): Studying and applying the above diffusion process to Graph Neural Networks (GNN) and FGTI for imputing missing values in Buffalo roadside speed-sensor time series; coverage windows: Oct-mid Nov 2022, first half of Dec 2022, Feb 2023; imputation targets: half of Nov 2022, second half of Dec 2022, Jan 2023 (full)"

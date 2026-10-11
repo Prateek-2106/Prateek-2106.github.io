@@ -22,15 +22,20 @@ export default function Home() {
           <p className="text-lg md:text-xl text-muted-foreground mb-8 leading-8 max-w-lg">
             {data.personal.description}
           </p>
-          <div className="flex gap-4">
+          <div className="flex flex-wrap items-center gap-3 sm:gap-4">
             <Button asChild size="lg" className="rounded-xl shadow-lg hover:shadow-xl hover:-translate-y-1 transition-all duration-300">
               <Link href="/projects">
                 View My Work
               </Link>
             </Button>
-            <Button asChild variant="outline" size="lg" className="rounded-xl border-2 hover:bg-background/80 backdrop-blur-sm transition-all duration-300">
+            <Button asChild variant="outline" size="lg" className="rounded-xl border-2 hover:-translate-y-1 transition-all duration-300">
               <Link href={data.personal.resume} target="_blank">
-                View Resume
+                View My Resume
+              </Link>
+            </Button>
+            <Button asChild variant="ghost" size="lg" className="rounded-xl px-4 hover:-translate-y-1 transition-all duration-300">
+              <Link href="/timeline">
+                View My Timeline &rarr;
               </Link>
             </Button>
           </div>

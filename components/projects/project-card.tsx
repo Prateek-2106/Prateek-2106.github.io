@@ -63,6 +63,7 @@ export function ProjectCard({ project }: ProjectCardProps) {
         </div>
 
         {/* Actions */}
+        {project.links.length > 0 && (
         <div className="flex gap-3 mt-auto pt-4 border-t border-border/50">
           {project.links.map((link) => {
             const Icon = IconMap[link.icon as keyof typeof IconMap] || ExternalLink;
@@ -80,6 +81,7 @@ export function ProjectCard({ project }: ProjectCardProps) {
             );
           })}
         </div>
+        )}
       </div>
     </div>
   );
