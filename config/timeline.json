@@ -1,0 +1,186 @@
+[
+  {
+    "id": "kiit-start",
+    "date": "2017-07",
+    "dateLabel": "Jul 2017",
+    "category": "Education",
+    "title": "Started B.Tech in Electronics & Computer Science",
+    "org": "Kalinga Institute of Industrial Technology, Bhubaneswar",
+    "summary": "Began my undergraduate degree, focusing on data structures, computer networks and databases.",
+    "details": [
+      "Coursework: Data Structures and Algorithms, Computer Networks, Database Management Systems.",
+      "Built a complex networking topology with end-to-end routing and switching (Cisco CCNA R&S)."
+    ],
+    "tags": ["Computer Science", "Networking"]
+  },
+  {
+    "id": "tata-motors",
+    "date": "2019-05",
+    "dateLabel": "May – Jun 2019",
+    "category": "Work",
+    "title": "Software Development Intern",
+    "org": "Tata Motors South Africa · Pretoria",
+    "summary": "Automated production-line part tracking with a barcode/QR scanner tool still used on the shop floor.",
+    "details": [
+      "Built an Excel VBA + SQL system reading live scanner data, raising output from 11 to 13 vehicles a day.",
+      "Automated inventory tallying across 9 vehicle models, cutting cycle time by 90%.",
+      "Replaced external vendor software, saving ZAR 15,000 a year."
+    ],
+    "tags": ["VBA", "SQL", "Automation"],
+    "link": { "name": "GitHub", "url": "https://github.com/Prateek-2106/VBA_TMSA_Project" }
+  },
+  {
+    "id": "cttc",
+    "date": "2019-11",
+    "dateLabel": "Nov – Dec 2019",
+    "category": "Work",
+    "title": "ML & AI Intern",
+    "org": "Central Tool Room and Training Center (Govt of India) · Bhubaneswar",
+    "summary": "Trained a real-time human-figure detection model with TensorFlow CNNs.",
+    "details": [
+      "Reached 92% accuracy, cut image-processing latency by 22% and false positives by 8%.",
+      "Benchmarked KNN, SVM and Naïve Bayes against deep-learning baselines."
+    ],
+    "tags": ["TensorFlow", "CNN", "Computer Vision"]
+  },
+  {
+    "id": "deloitte",
+    "date": "2021-07",
+    "dateLabel": "Jul 2021 – Jul 2025",
+    "category": "Work",
+    "title": "Business Technical Analyst, SAP Development",
+    "org": "Deloitte US offices of India · Hyderabad",
+    "summary": "Four years building and maintaining enterprise SAP systems for US clients.",
+    "details": [
+      "Built a PII data-scrambling and compliance platform in Python and SAP ABAP.",
+      "Decommissioned 35K+ redundant objects, improving response time by 45% and helping win a $350K renewal.",
+      "Shipped 110+ production enhancements under Agile and CI/CD; resolved 70+ defects.",
+      "Received Deloitte's Applause Award for technical excellence."
+    ],
+    "tags": ["SAP ABAP", "Python", "Agile"]
+  },
+  {
+    "id": "kiit-grad",
+    "date": "2021-08",
+    "dateLabel": "Aug 2021",
+    "category": "Education",
+    "title": "Graduated B.Tech",
+    "org": "Kalinga Institute of Industrial Technology, Bhubaneswar",
+    "summary": "Completed my bachelor's degree with a CGPA of 8.34/10.",
+    "details": [],
+    "tags": ["Graduation"]
+  },
+  {
+    "id": "ub-start",
+    "date": "2025-08",
+    "dateLabel": "Aug 2025",
+    "category": "Education",
+    "title": "Started M.S. in Computer Science",
+    "org": "University at Buffalo, SUNY",
+    "summary": "Moved to Buffalo to study AI/ML, systems and security.",
+    "details": [
+      "Coursework: Algorithms, Computer Security, Computer Vision, Deep Learning, Operating Systems, Databases."
+    ],
+    "tags": ["AI/ML", "Systems"]
+  },
+  {
+    "id": "ub-gra",
+    "date": "2025-10",
+    "dateLabel": "Oct 2025 – Feb 2026",
+    "category": "Work",
+    "title": "Graduate Research Assistant",
+    "org": "University at Buffalo, SEAS",
+    "summary": "Applied diffusion models to speech synthesis and traffic-sensor data imputation.",
+    "details": [
+      "Built a DiffWave speech-synthesis pipeline in PyTorch scoring a 4.44 Mean Opinion Score.",
+      "Applied diffusion with GNN/FGTI to fill missing Buffalo road-sensor speed data."
+    ],
+    "tags": ["Diffusion Models", "PyTorch", "GNN"]
+  },
+  {
+    "id": "ibm-hackathon",
+    "date": "2026-05",
+    "dateLabel": "Apr – May 2026",
+    "category": "Award",
+    "title": "3rd Place, IBM SkillsBuild AI Hackathon",
+    "org": "IBM × University at Buffalo",
+    "summary": "Multi-agent research assistant on IBM watsonx Orchestrate with a supervisor routing to specialist agents.",
+    "details": [
+      "RAG agent over 56 pages of UB CCR documentation: 96% retrieval accuracy, ~3 s cited answers.",
+      "Professor Discovery agent matches a student's bio to UB faculty research."
+    ],
+    "tags": ["Agentic AI", "RAG", "watsonx"]
+  },
+  {
+    "id": "wildlens",
+    "date": "2026-05",
+    "dateLabel": "Spring 2026",
+    "category": "Project",
+    "title": "WildLens: Real-Time Wildlife Detection",
+    "org": "CSE 546 · Presented at UB CSE Demo Day",
+    "summary": "Fine-tuned MegaDetector from 3 generic classes to 500 vertebrate species for live video.",
+    "details": [
+      "Collected 54,866 iNaturalist images; MegaDetector auto-labeling hit a 94.5% label rate vs 65% with COCO YOLO.",
+      "Trained on a 100,000-image dataset to mAP50 0.637.",
+      "Gradio app detects species on uploaded videos or YouTube links."
+    ],
+    "tags": ["Computer Vision", "MegaDetector", "Conservation"],
+    "link": { "name": "GitHub", "url": "https://github.com/Prateek-2106/LiveStream_Animal_Detection" }
+  },
+  {
+    "id": "financial-risk",
+    "date": "2026-05",
+    "dateLabel": "Apr – May 2026",
+    "category": "Project",
+    "title": "Temporal Financial Risk Modelling",
+    "org": "Presented at UB CSE Demo Day",
+    "summary": "LSTM, GRU and Transformer forecasters on Dow Jones data with calibrated uncertainty.",
+    "details": [
+      "Monte Carlo Dropout prediction intervals calibrated to 92% coverage (target 90%).",
+      "Value-at-Risk and Expected Shortfall risk metrics."
+    ],
+    "tags": ["Time Series", "PyTorch", "Risk"]
+  },
+  {
+    "id": "fetch",
+    "date": "2026-10",
+    "dateLabel": "Oct 2026",
+    "category": "Award",
+    "title": "1st Place, Against All Oddz AI for Good Design Challenge",
+    "org": "Team AniTech · University at Buffalo",
+    "summary": "Fetch, a case-management tool for the Against All Oddz animal rescue.",
+    "details": [
+      "Role-based staff and public views, per-animal case pages with a kanban journey and urgency indicators.",
+      "I built request intake across sources."
+    ],
+    "tags": ["AI for Good", "Product Design"]
+  },
+  {
+    "id": "vendor-street",
+    "date": "2026-10",
+    "dateLabel": "Oct 2026 – Present",
+    "category": "Project",
+    "title": "Launched Vendor Street",
+    "org": "vendorstreet.dev",
+    "summary": "Multi-tenant SaaS giving small businesses a website, AI-drafted quotes and invoices, and a lending engine.",
+    "details": [
+      "Scores a 6-month bank statement on 8 cash-flow measures in under 300 ms (p95).",
+      "2,400+ requests/s on one CPU core; runs on AWS for about $12/month.",
+      "412 unit/integration and 17 browser tests run on every push."
+    ],
+    "tags": ["TypeScript", "AWS", "Claude API"],
+    "link": { "name": "Live", "url": "https://vendorstreet.dev/" }
+  },
+  {
+    "id": "ub-grad",
+    "date": "2026-12",
+    "dateLabel": "Dec 2026",
+    "category": "Education",
+    "title": "M.S. in Computer Science (expected)",
+    "org": "University at Buffalo, SUNY",
+    "summary": "Graduating and looking for full-time software, ML and test engineering roles.",
+    "details": [],
+    "tags": ["Graduation"],
+    "upcoming": true
+  }
+]

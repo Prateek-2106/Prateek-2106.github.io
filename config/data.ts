@@ -85,7 +85,7 @@ export const data = {
                 { name: "Hugging Face", color: "bg-yellow-50 text-yellow-700" },
             ],
             links: [
-                { name: "Hugging Face", url: "https://huggingface.co/spaces/Prateek2106/Wildlife-Detector", icon: "ExternalLink" },
+                { name: "GitHub", url: "https://github.com/Prateek-2106/LiveStream_Animal_Detection", icon: "Github" },
             ],
         },
         {

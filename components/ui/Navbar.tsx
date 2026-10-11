@@ -20,6 +20,7 @@ export function Navbar() {
 
   const navLinks = [
     { href: "/projects", label: "Projects" },
+    { href: "/timeline", label: "Timeline" },
     { href: "/resume-03-01-2026.pdf", label: "Resume", external: true },
     { href: "/now", label: "Now" },
   ];
